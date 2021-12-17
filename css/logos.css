@@ -1,0 +1,420 @@
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background: #FAFAFA;
+    font-family: 'Ubuntu', sans-serif;
+    color:#414141 !important;
+}
+
+/* navbar */
+
+.navbar-brand {
+    margin-left: 1rem;
+    height: 40px;
+    width: 40px;
+}
+
+ul.nav {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    padding-right: 3vw;
+
+}
+
+/*.page-section {
+    padding-top: 63px !important;
+    margin-top: -63px !important;
+}*/
+
+a.nav-link {
+    transition: 0.5s;
+    font-size: 1.1rem;
+    color: rgb(78, 78, 78);
+    margin: 40px 50px !important;
+}
+
+li a.nav-link:hover {
+    transition: 0.5s;
+    color: #414141;
+    border-bottom: 2px solid #292929;
+}
+
+li a.active:not(.dropdown-item) {
+    transition: 0.5s;
+    font-weight: 600;
+    color: #414141!important;
+    border-bottom: 2px solid #414141;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    border:0;
+}
+
+.dropdown-item {
+    color: rgba(0, 0, 0, .5) !important;
+}
+
+.dropdown-item:hover{
+    background-color: #f3f3f3;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    font-weight: 600;
+    color: #414141 !important;
+    background-color: #f7f7f7;
+}
+
+a#navbarDropdown.link-work {
+    font-weight: 600;
+    color: #414141 !important;
+    border-bottom: 2px solid #414141;
+}
+
+@media screen and (max-width: 768px) {
+    li a.active:not(.dropdown-item){
+        border-bottom: 0 !important;
+    }
+    
+    .navbar-brand {
+        height: 30px !important;
+        width: 30px;
+    }
+
+    ul.nav {
+        text-align: left;
+        padding-top: 9px;
+    }
+
+    li a.nav-link {
+        margin: 0 !important;
+        font-size: 1rem;
+        text-align: right;
+    }
+
+    .navbar-toggler-icon {
+        width: 1.10em;
+        height: 1.10em;
+    }
+}
+
+/* scroll */
+nav.navbar.shrink {
+    min-height: 35px;
+}
+
+nav.shrink li a.nav-link {
+    margin: 0 50px !important;
+}
+
+nav.shrink .navbar-toggle {
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+}
+
+/* LOGOS*/
+
+.contain#top{
+    margin: 12vw 0 5vw;
+    padding:0 5vw;
+}
+
+.text-intro{
+    text-align:justify;
+    color:#414141;
+    margin-left: 9%;
+    margin-right: 9%;
+   /* border-bottom:2px solid #292929;*/
+    padding-bottom: 2%;
+    margin-bottom: 100px;
+  }
+
+  .text-intro h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:30px;
+  }
+
+  .text-intro h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width:765px){
+    .text-intro{
+        margin-bottom: 13%;
+        border-bottom: 1.5px solid #414141;
+    }
+    .text-intro h1 {
+        font-size: 31px;
+    }
+    .text-intro h2 {
+        font-size: 20px;
+    }
+}
+
+
+.logo-base{
+    overflow: hidden;
+    border-radius: 50%;
+    background: #FAFAFA;
+    margin: 2.7vw auto;
+    position: relative;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+    height:17vw;
+    width:17vw;
+    transition: 0.2s;
+}
+
+.logo-img{
+    border-radius: 2px;
+    position: relative;
+    height:17vw;
+    width:17vw;
+}
+
+/* Modal logos */
+.modal-body{
+    padding:0;
+}
+
+.modal-content{
+    background:transparent;
+}
+
+.close{
+    position:absolute;
+right:0;
+line-height:0.5;
+}
+
+#logo-1,#logo-2,#logo-3,#logo-4,#logo-5,#logo-6,#logo-7,#logo-8,#logo-9{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 29vw;
+    transition: 0.2s;
+}
+
+#logo-1{
+    background-image: url(../images/logo/cookit.jpg);
+}
+
+#logo-2{
+    background-image: url(../images/logo/eg-logo.jpg);
+}
+
+#logo-3{
+    background-image: url(../images/logo/mercato-logo.jpg);
+    background-size: 35vw;
+}
+
+#logo-4{
+    background-image: url(../images/logo/juve.jpg);
+    background-size: 35vw;
+}
+
+#logo-5{
+    background-image: url(../images/logo/kevin.jpg);
+}
+
+#logo-6{
+    background-image: url(../images/logo/fede.jpg);
+    background-size: 35vw;
+}
+
+#logo-7{
+    background-image: url(../images/logo/egh.jpg);
+    background-size: 35vw;
+}
+
+#logo-8{
+    background-image: url(../images/logo/serenitux.jpg);
+}
+
+#logo-9{
+    background-image: url(../images/logo/nike-logo.jpg);
+}
+
+#logo-10{
+    width:100%;
+    height:100%;
+    display: grid;
+    background: rgb(65,65,65);
+    background: radial-gradient(circle, rgba(65,65,65,1) 0%, rgba(41,41,41,1) 100%);
+    color:#FAFAFA;
+    text-align: center;
+    vertical-align: middle;
+    font-size:1.5rem;
+    padding: 5%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.logo-img-yours{
+    align-items: center;
+    border-radius: 2px;
+    position: relative;
+    height:17vw;
+    width:17vw;
+    display: grid;
+}
+
+
+
+.logo-base:hover #logo-1,.logo-base:hover #logo-2,.logo-base:hover #logo-3,.logo-base:hover #logo-4,.logo-base:hover #logo-5,.logo-base:hover #logo-6,.logo-base:hover #logo-7,.logo-base:hover #logo-8,.logo-base:hover #logo-9{
+    transition:0.3s;
+    transform: scale(1.1);
+    opacity:1; 
+}
+
+.logo-base:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    border-radius: 5%;
+}
+
+h5.logo-title{
+    color: #414141;
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+   top:1%;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+    -webkit-text-stroke: 0.4px white;
+}
+
+.logo-base:hover .logo-title{
+    transition: 0.3s;
+    opacity:1;
+}
+
+@media screen and (max-width:765px) {
+    .logo-base{
+        margin:4.7vw auto;
+        box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+        height:40vw;
+        width:40vw;
+    }
+    .logo-img {
+        height: 40vw;
+        width: 40vw;
+    }
+    #logo-1,#logo-2,#logo-3,#logo-4,#logo-5,#logo-6,#logo-7,#logo-8,#logo-9{
+        background-size: 70vw;
+    }
+}
+
+/* FOOTER */
+
+footer {
+    background: rgb(49, 49, 49);
+}
+
+.contain#footer {
+    padding: 100px 50px;
+}
+
+.contact-title {
+    text-align: center;
+    color: white;
+}
+
+.contact-title h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact-title h2 {
+    font-size: 15px;
+}
+
+form {
+    margin: 10px 20px;
+    padding: 30px;
+    background: transparent;
+    border-radius: 0px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    color: white !important;
+    border-bottom: 1px solid white;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    border: 1px solid white;
+}
+
+::placeholder {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.6) !important;
+    font-weight: 100;
+    font-size: 0.90rem;
+    padding: 0px !important;
+}
+
+:focus::-webkit-input-placeholder {
+    color: grey !important;
+}
+
+#form-name {
+    width: 100%;
+    display: inline-flex;
+}
+
+input#space_right {
+    margin-right: 22px;
+}
+
+form .submit {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border: 1px solid white;
+}
+
+form .submit:hover {
+    background: #5882FA;
+}
+
+div#contact {
+    margin: 25% auto;
+    text-align: center;
+    color: white;
+}
+
+.yel {
+    margin: 10px;
+    height: 60px;
+    fill: white;
+}
+
+@media screen and (max-width:765px) {
+    form {
+        margin: 10px 0px;
+        padding: 30px 0;
+    }
+
+    div#contact {
+        font-size: 0.75rem;
+    }
+
+    .yel {
+        height: 45px;
+    }
+}
