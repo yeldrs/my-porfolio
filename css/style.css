@@ -205,6 +205,7 @@ h4.work_category {
 }
 
 .see_more#p_more{
+    text-decoration: underline;
     opacity:1 !important;
     transition: 0.2s;
     right:0;
@@ -217,11 +218,21 @@ h4.work_category {
     font-weight: 500;
 }
 
+.see_more p{
+background-color: rgba(255, 255, 255, 0.5);
+margin: 0 auto;
+padding: 0 5px;
+}
+
 .work_img:hover .see_more#p_more{
     transition: 0.5s;
     opacity:1;
     font-weight: 700;
     font-size: larger;
+}
+
+.work_img:hover .see_more p{
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .work_section{
