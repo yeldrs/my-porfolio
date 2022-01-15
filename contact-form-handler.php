@@ -1,4 +1,4 @@
-<?php echo date("Y"); ?>
+<?php /*echo date("Y"); ?>
 <?php
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
@@ -24,6 +24,21 @@ mail($to,$email_subject,$email_body,$headers);
 
 header("Location: index.html");
 
-?>
+?> */
 
-1
+
+if (isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $subject = $_POST['subject'];
+    $mailFrom = $POST['mail'];
+    $message = $_POST['message'];
+
+    $mailTo = "contact@yasselidrissi.cf";
+    $headers = "From: ".$email_from;
+$txt = "You have recieved an e-mail from ".$name.".\n\n".$message;
+
+    mail($mailTo, $subject, $txt, $headers);
+    header("Location: index.html?mailsend");
+}
+
+?>
