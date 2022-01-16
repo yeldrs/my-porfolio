@@ -371,10 +371,10 @@
                     <h2>Leave me a message :)</h2>
                 </div>
                 <div class="contact-form">
-                    <form id="contact-form" action="https://formspree.io/f/xyyokebe"
+                    <form id="contact-form"  action="https://formspree.io/f/xyyokebe"
                     method="POST">
 
-                        <input name="title" type="title" class="form-control" placeholder="Message subject"
+                        <input name="title" type="title" name="_replyto" class="form-control" placeholder="Message subject"
                             required>
 
                         <br>
@@ -388,7 +388,8 @@
                         <br>
 
                         <input name="email" type="email" class="form-control" placeholder="Your email" required>
-
+                        <input type="hidden" name="_next" value="https://google.com">
+                        <input type="text" name="_gotcha" style="display:none" >
                         <br>
 
                         <textarea name="message" class="form-control" rows="3" placeholder="Message"
