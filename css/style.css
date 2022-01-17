@@ -284,11 +284,8 @@ transition: 0.4s;
 }
 
 .img-fluid#testing, .work_img{
-    width: 100%;
-    min-height: 100%;
     height: 100%;
     width: auto!important;
-    object-fit: cover;
 }
 
 
