@@ -285,6 +285,7 @@ transition: 0.4s;
 
 .work_img{
     align-items: flex-start;
+    display:flex
 }
 
 .img-fluid#testing, .work_img{
