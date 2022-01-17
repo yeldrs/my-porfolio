@@ -286,6 +286,8 @@ transition: 0.4s;
 .img-fluid#testing, .work_img{
     height: 100%;
     width: auto!important;
+    align-self: flex-start;
+    justify-self: flex-start;
 }
 
 
