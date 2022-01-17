@@ -187,6 +187,10 @@ max-width:1035.542px;
     padding:20px;
 }
 
+i.fas{
+    padding-left: 5px;
+}
+
 .box-img-profile{
     padding: 20px 0 20px 0;
 }
