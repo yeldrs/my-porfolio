@@ -283,11 +283,16 @@ transition: 0.4s;
     max-width: 100%
 }
 
+.work_img{
+    align-items: flex-start;
+}
+
 .img-fluid#testing, .work_img{
-    height: 100%;
-    width: auto!important;
+height: auto;
+    max-width: auto!important;
     align-self: flex-start;
     justify-self: flex-start;
+    object-fit: contain;
 }
 
 
