@@ -225,44 +225,19 @@ a#see-more:hover{
     padding-left: 0.7vw;
 }
 
-/* Intro nike 
-.nike.intro-img{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%,rgba(255,255,255,0.3) 100%), url(../images/academic/nike/logo-black.jpg);
-    background-size: cover;
-    background-position: 50% 70%;
-}*/
-
-/* Intro Swatch 
-.swatch.intro-img{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%,rgba(58, 58, 58, 0.3) 100%), url(../images/academic/swatch/backgroung.jpg);
-    background-size: 170%;
-    background-position: 50% 50%;
-}*/
-
-/* Intro Swatch 
-.cta.intro-img{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%,rgba(58, 58, 58, 0.3) 100%);
-    background-size: 170%;
-    background-position: 50% 50%;
-}*/
-
-.nike{
-    padding-bottom: 5%;
+.cta, .personal-project{
   background-color: #313131;
+  color:#FAFAFA !important;
 }
 
-.swatch{
-  background-color: #313131;
-}
+.swatch, .biomimicry, .nike{
+    color:#313131 !important;
+  }
 
 .text-work{
     text-align:justify;
     margin-top:0px;
-    color:#FAFAFA;
-}
-
-.dark{
-    color:#414141;
+    hyphens: auto;
 }
 
 .text-work h1{
@@ -428,9 +403,6 @@ list-style: none;
 }
 .carousel{
     margin: 3%;
-}
-.swatch.intro-img {
-    background-size: 315%;
 }
 }
 
