@@ -302,14 +302,10 @@
 						<h2>Leave me a message :)</h2>
 					</div>
 					<div class="contact-form">
-						<form id="contact-form"  action="https://formspree.io/f/xyyokebe"
-						method="POST">
-
-							<input name="title" type="title" name="_replyto" class="form-control" placeholder="Message subject"
+						<form id="contact-form" action=https://formspree.io/f/xyyokebe method="POST">
+							<input name="subject" type="title" class="form-control" placeholder="Message subject"
 								required>
-
 							<br>
-
 							<div id="form-name">
 								<input id="space_right" name="name" type="text" class="form-control"
 									placeholder="First name" required>
@@ -317,21 +313,16 @@
 							</div>
 							<br>
 							<br>
-
-							<input name="email" type="email" class="form-control" placeholder="Your email" required>
+							<input name="email" type="email" name="_replyto" class="form-control"
+								placeholder="Your email" required>
 							<input type="hidden" name="_next" value="https://google.com">
-							<input type="text" name="_gotcha" style="display:none" >
+							<input type="text" name="_gotcha" style="display:none">
 							<br>
-
 							<textarea name="message" class="form-control" rows="3" placeholder="Message"
 								required></textarea>
-
 							<br>
 							<input type="submit" class="form-control submit" value="SEND MESSAGE">
 						</form>
-
-
-
 					</div>
 				</div>
 
