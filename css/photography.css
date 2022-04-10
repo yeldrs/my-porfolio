@@ -125,68 +125,33 @@ nav.shrink .navbar-toggle {
   #myBtn:hover {
     background-color: #f3f3f3;
   }
+ 
 
-
-/* PHOTOS */
-
-.contain{
-    margin: 12vw 0 5vw;
-    padding: 0 5vw;
+  div.intro_photo{
+    margin-top: 65px;
+    width:100%;
 }
 
 
-.text-intro{
-    text-align:justify;
-    color:#414141;
-    margin-left: 9%;
-    margin-right: 9%;
-    border-bottom:2px solid #414141;
-    padding-bottom: 2%;
-    margin-bottom: 100px;
-  }
 
-  .text-intro h1{
-    font-size: 45px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom:30px;
-  }
-
-  .text-intro h2{
-    font-size: 30px;
-    text-align: center;
+.container#street-phot{
+    margin:0;
+    box-sizing: border-box;
 }
 
-.col-12 img#gallery{
-    padding: 0.5em;
-    padding-bottom: 0.5em;
-    padding-top: 0;
+#street-phot{
+    float:left;
+width: 36.36%;
 }
 
-#gallery.img1 {
-    padding-right: 0.25em;
-    padding-left: 0.5em;
-    padding-bottom: 0.5em;
+#size-2{
+    float: left;
+    width: 27.27%;
 }
 
-#gallery.img2 {
-    padding-right: 0.5em;
-    padding-left: 0.25em;
-    padding-bottom: 0.5em;
-}
-
-
-@media screen and (max-width:765px){
-    .text-intro{
-        margin-bottom: 13%;
-        border-bottom: 1.5px solid #414141;
-    }
-    .text-intro h1 {
-        font-size: 31px;
-    }
-    .text-intro h2 {
-        font-size: 20px;
-    }
+#street-phot-2{
+    float:right;
+width: 36.36%;
 }
 
 
