@@ -1,7 +1,23 @@
+body {
+    background:#FAFAFA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
 
+
+
+
+h1{
+    font-size: 25px;
+    font-weight: 500 !important;
+    margin-top: 3vw;
+}
+
+.p-content{
+    margin: 0 10vw;
+}
 
 .container{
-    margin: 0 10vw;
     display:inline-flex;
     justify-content: center;
     overflow: visible;
@@ -30,7 +46,7 @@ width: 39.035%;
 
 }
 
-.mphotos, .dphotos, .aphotos, .gphotos, .bnwphotos{
+.mphotos, .dphotos, .aphotos, .gphotos, .bnwphotos, .nphotos{
     margin-bottom: 20px;
 }
 
