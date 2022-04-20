@@ -8,6 +8,14 @@ $(window).scroll(function() {
   }
 });
 
+
+// Toggle jQuery for Small Devices -->
+
+ $(".toggle-btn").click(function(){
+        $(this).toggleClass("fa-times");
+        $(".navi-menu").toggleClass("active");
+    });
+
 var mybutton = document.getElementById("myBtn");
 	
 // When you scroll down 20px from the top of the document, show the button

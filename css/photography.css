@@ -1,4 +1,5 @@
-body {
+body, html {
+    overflow-x: hidden;
     background:#f8f9fa;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -36,6 +37,7 @@ width: 100%;
     white-space: nowrap;
     height: 40px;
     width: 40px;
+    margin:0 !important;
 }
 
 .navibar {
@@ -49,6 +51,7 @@ width: 100%;
     list-style: none;
     position: relative;
     padding: 20px 0px;
+    transition:0.3s;
 }
 .navibar a {
     color: rgb(78, 78, 78);
@@ -66,7 +69,7 @@ width: 100%;
 }
 
 .navibar i{
-    margin-right: 8px;
+    margin-right: 7vw;
     font-size: 16px;
 }
 
@@ -80,14 +83,18 @@ width: 100%;
 
 
 .toggle-btn{
+    z-index: 999;
+    right:0;
+    position:absolute;
     float: right;
     height: 90px;
     line-height: 90px;
-    color: #fff;
+    color:#292929;
     font-size: 26px;
     display: none;
     cursor: pointer;
 }
+
 .navibar.active{
     display: block;
 }
@@ -120,6 +127,7 @@ padding:7px 0;
     }
 
 .dropdown-menu:hover ul {
+    transition:0.4s;
     display: block;
 }
 
@@ -146,6 +154,43 @@ nav.shrink {
     min-height: 35px;
 }
 
+.navi-menu.active{
+    display: block;
+}
+
+
+@media (max-width:767px) {
+    .toggle-btn{
+        display: block;
+    }
+
+    .navi-menu {
+        position: relative;
+        width: 100%;
+        background: #f8f9fa;
+        right: 0;
+        display: none;
+        padding: 0px 15px;
+    }
+
+    .dropdown-menu ul {
+        position: static;
+        width:auto;
+        padding: 5px 8px 8px 8px;
+    }
+    
+    .dropdown-menu li a {
+        margin: 0 !important;
+    }
+
+    .navi-menu li {
+        padding: 0px;
+    }
+    .navi-menu li a {
+        display: block;
+        margin: 15px 0px;
+    }
+    }
 
 /* Button page top*/
 
@@ -164,6 +209,8 @@ nav.shrink {
     padding: 10px 16px 10px 16px;
     border-radius: 50%;
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    width: 50px;
   }
   
   #myBtn:hover {
@@ -217,6 +264,12 @@ width: 39.035%;
     padding:0 2px;
 }
 
+@media screen and (max-width:765px) {
+    .p-content {
+        margin: 0 16px;
+    }
+    
+}
 
 
 /* FOOTER */
@@ -225,7 +278,7 @@ footer {
     background: rgb(49, 49, 49);
 }
 
-.contain#footer {
+.container#footer {
     padding: 100px 50px;
 }
 
@@ -243,6 +296,15 @@ footer {
     font-size: 15px;
 }
 
+.contain-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contain-col-2{
+max-width:50%;
+}  
+
 form {
     margin: 10px 20px;
     padding: 30px;
@@ -257,6 +319,8 @@ form {
     border-radius: 0;
     color: white !important;
     border-bottom: 1px solid white;
+    width: 100%;
+    padding: .375rem .75rem;
 }
 
 .form-control:focus {
@@ -282,6 +346,10 @@ form {
     display: inline-flex;
 }
 
+form input, form textarea{
+    margin-top:10px;
+}
+
 input#space_right {
     margin-right: 22px;
 }
@@ -298,7 +366,8 @@ form .submit:hover {
 }
 
 div#contact {
-    margin: 25% auto;
+    margin: 10px 20px;
+    padding: 30px;
     text-align: center;
     color: white;
 }
@@ -309,7 +378,24 @@ div#contact {
     fill: white;
 }
 
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+textarea{
+    line-height: 150%;
+}
+
 @media screen and (max-width:765px) {
+
+    .contain-col-2{
+        max-width: 100%;
+        width:100%;
+        } 
+
     form {
         margin: 10px 0px;
         padding: 30px 0;

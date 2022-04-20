@@ -34,15 +34,15 @@
 	<div class="wrapper">
 
 		<nav id="nav" class="navibar">
-			<a class="navi-logo" href="index.html"><img src="images/logo.svg"></a>
+			<a class="navi-logo" href="index.html"><img src="images/logo.svg"></a> <i class="toggle-btn fas fa-bars"></i>
 			<div class="navi-menu">
-		<li class="dropdown-menu" ><a href="#">Work</a>
+		<li class="dropdown-menu" ><a class="active" href="#">Work</a>
 			<ul>
 				<li><a href="academic.html">Academic projects</a></li>
 				<div class="dropdown-line"></div>
 				<li><a href="logos.html"> Logos</a></li>
 				<div class="dropdown-line"></div>
-				<li><a href="photography.html"> Photography</a></li>
+				<li><a class="active" href="photography.html"> Photography</a></li>
 			
 			</ul>
 		</li>
@@ -230,9 +230,9 @@
 	<!-- FOOTER -->
 	<footer class="page-section" id="contact">
 
-		<div class="contain" id="footer">
-			<div class="row no-gutters">
-				<div class="col-md-6 col-sm-12">
+		<div class="container" id="footer">
+			<div class="contain-row">
+				<div class="contain-col-2">
 
 					<div class="contact-title">
 						<h1>Quick contact</h1>
@@ -263,7 +263,7 @@
 					</div>
 				</div>
 				<!--Contact-->
-				<div class="col-md-6 col-sm-12">
+				<div class="contain-col-2">
 					<div id="contact">
 						Yassine El Idrissi <br> contact@yassineelidrissi.com
 						<br>
@@ -297,13 +297,7 @@
 	<!-- JS -->
 	<!-- Navbar scroll Js + Button-->
 	<script type="text/javascript" src="java/java.js"></script>
-<!-- Toggle jQuery for Small Devices -->
-<script type="text/javascript">
-    $(".toggle-btn").click(function(){
-        $(this).toggleClass("fa-times");
-        $(".navibar").toggleClass("active");
-    });
-</script>
+
 		
 
 </body>
