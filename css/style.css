@@ -126,19 +126,6 @@ nav.shrink .navbar-toggle {
     margin: 8px 15px 8px 0;
 }
 
-/* scroll */
-nav.navbar.shrink {
-    min-height: 35px;
-}
-
-nav.shrink li a.nav-link {
-    margin: 0 50px !important;
-}
-
-nav.shrink .navbar-toggle {
-    padding: 4px 5px;
-    margin: 8px 15px 8px 0;
-}
 
 /* Button page top*/
 

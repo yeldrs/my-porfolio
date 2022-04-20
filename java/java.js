@@ -8,18 +8,6 @@ $(window).scroll(function() {
   }
 });
 
-/*
-  if ($(document).scrollTop() < 50 ) {
-      $('a.nav-link').addClass('active');
-  } else {
-    $('a.nav-link').removeClass('active');
-  }
-  
-  $(window).on('load',function(){
-    $('#modal-error').modal('show');
-});
-*/
-
 var mybutton = document.getElementById("myBtn");
 	
 // When you scroll down 20px from the top of the document, show the button
