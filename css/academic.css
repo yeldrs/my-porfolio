@@ -207,6 +207,10 @@ margin: auto;
     border-right:1px solid #414141;
 }
 
+a{
+    color:inherit;
+}
+
 p#see-more{
     text-align: center;
 }
