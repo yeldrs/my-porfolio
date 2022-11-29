@@ -179,42 +179,41 @@ h4.work_category {
 .see_more{
     display : grid;
     align-items : center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
-
+/*
 .see_more img{
     opacity:1;
     background-color: rgba(0, 0, 0, .5);
 }
+*/
 
 .see_more#p_more{
-    text-decoration: underline;
     opacity:1 !important;
     transition: 0.2s;
     right:0;
     left:0;
     bottom:0;
-    top:-5%;
+    top:0;
     text-align: center;
     position:absolute;
-    color:#414141;
-    font-weight: 500;
+   color: rgba(255, 255, 255, 0.5);
+    font-size: 200px;
 }
 
 .see_more p{
-background-color: rgba(255, 255, 255, 0.5);
 margin: 0 auto;
 padding: 0 5px;
 }
 
-.work_img:hover .see_more#p_more{
+.see_more:hover .see_more#p_more{
     transition: 0.5s;
     opacity:1;
-    font-weight: 700;
-    font-size: larger;
+    font-size:300px;
 }
 
-.work_img:hover .see_more p{
-    background-color: rgba(255, 255, 255, 1);
+.see_more:hover .see_more p{
+    color: white;
 }
 
 .work_section{
@@ -229,9 +228,9 @@ padding: 0 5px;
 
 }
 
-.work_img:hover .work_section {
+.see_more:hover .work_section {
     opacity: 1;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: white
     transition: 0.5s;
 }
 
@@ -245,7 +244,7 @@ height:10%;
     transition: 0.2s;
 }
 
-.work_img:hover .circle{
+.see_more:hover .circle{
     opacity: 1;
     width:21vw;
     height:21vw;
