@@ -82,8 +82,8 @@
    $(document).ready(function(){
     $("#nike-slide").carousel();
 
-    $( '.nike-nav li' ).on( 'click', function () {
-      $( '.nike-nav' ).find( 'li.active' ).removeClass( 'active' );
+    $( '.slides-prev li' ).on( 'click', function () {
+      $( '.slides-prev' ).find( 'li.active' ).removeClass( 'active' );
       $(this).addClass('active');
     });
 });
@@ -91,8 +91,8 @@
 $(document).ready(function(){
   $("#swatch-slide").carousel();
 
-  $( '.nike-nav li' ).on( 'click', function () {
-    $( '.nike-nav' ).find( 'li.active' ).removeClass( 'active' );
+  $( '.slides-prev li' ).on( 'click', function () {
+    $( '.slides-prev' ).find( 'li.active' ).removeClass( 'active' );
     $(this).addClass('active');
   });
 });
@@ -100,8 +100,8 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#cta-slide").carousel();
 
-  $( '.nike-nav li' ).on( 'click', function () {
-    $( '.nike-nav' ).find( 'li.active' ).removeClass( 'active' );
+  $( '.slides-prev li' ).on( 'click', function () {
+    $( '.slides-prev' ).find( 'li.active' ).removeClass( 'active' );
     $(this).addClass('active');
   });
 });
