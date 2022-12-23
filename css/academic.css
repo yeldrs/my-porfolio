@@ -163,7 +163,7 @@ nav.shrink .navbar-toggle {
 
 .contain{
     width: 100%;
-padding:0 10vw;
+padding:0 200px;
 margin: auto;
 }
 
@@ -215,7 +215,7 @@ p#see-more{
 }
 
 a#see-more{
-    color: #ffffff;
+    color: #292929;
     text-decoration: underline;
 }
 
@@ -377,7 +377,7 @@ background-color: rgba(39, 39, 39, 0.3);
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 840px) {
    .contain{
     padding: 0 10px;
    }
