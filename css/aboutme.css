@@ -229,7 +229,6 @@ margin-bottom:0;
 }
 
 .col-line{
-    padding-bottom: 2.5vw;
     padding-top: 2.5vw;
     padding-right: 0;
     padding-left: 0;
@@ -252,6 +251,12 @@ margin-bottom:0;
     margin: 0 auto;
 }
 
+.contact-details a{
+    color:#000 !important;
+    font-style: italic;
+    text-decoration:underline;
+}
+
 h5#title{
     text-transform:uppercase;
 text-align: center;
@@ -263,25 +268,18 @@ text-align: center;
     margin: 0 auto;
 }
 
-.language-progress{
-    height:100%;
+.language-row{
+    display: flow-root;
 }
 
-.progress-bar {
-    background-color: rgb(231, 231, 231);
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  max-width:100%;
-    height:8px;
-    margin: 0 auto 15px auto;
-  }
-  
-  .progress {
+.language-row>h6{
+    float:left;
+}
+.language-row>p{
+    right:0;
+    float:right;
+}
 
-    background-color: rgb(0, 102, 128);
-    border-radius: 10px;
-    box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.2);
-  }
 
   .col-bar#interests{
       text-align: center;
@@ -298,13 +296,13 @@ text-transform: uppercase;
 margin-bottom: 20px;
 }
 
-.col-section p{
+.col-section p, .language-row p, ul{
     align-items: flex-end;
     font-weight:300;
 }
 
 
-p#date{
+p#date, h7{
     font-weight: 500;
     margin-bottom: 0;
 }
