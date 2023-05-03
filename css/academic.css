@@ -289,6 +289,17 @@ border-radius: 25px;
 background-color: rgba(39, 39, 39, 0.3);
 }
 
+
+.container-solstice{
+  width:100%;
+  height:100%;
+}
+
+.img-rotation{
+    width:100%;
+}
+
+
 /*.carousel-inner {
     margin: 0 auto;
     position: relative;
