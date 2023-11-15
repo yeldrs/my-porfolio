@@ -245,12 +245,17 @@ width: 39.035%;
     width: 21.93%;
 }
 
+.frame{
+    padding:0 2px;
+    float: left; 
+}
+
 .container img{
     transition: 0.3s;
 }
 
 .container img:hover{
-    transform: scale(103%);
+    transform: scale(150%);
     box-shadow: 0px 0px 7px 0px rgba(37, 44, 46, 0.3);
     transition: 0.3s;
 
