@@ -193,11 +193,12 @@ margin: auto;
     padding: 0 200px;
 }
 
-.container{
+.container, .container2, .container3{
     display:inline-flex;
     justify-content: center;
     overflow: visible;
     padding:0;
+    max-width: unset;
 }
 
 .frame{
@@ -217,12 +218,33 @@ margin: auto;
 
 }
 
+.container2 .frame{
+height:500px;
+overflow: hidden;
+}
+
 @media screen and (max-width: 768px) {
     .contain{
         padding: 0 10px;
        }
+
+      .container, .container2, .container3, .container4{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       }
+
+       .container3 .frame, .container .frame{
+        width:calc(100%/3)
+       }
+
+       .container4 .frame{
+        width:100%;
+        padding-bottom:4px;
+       }
     .p-content {
         margin: 0 16px;
+        padding:0;
     }
     .text-intro{
         margin-bottom: 13%;
