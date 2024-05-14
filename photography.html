@@ -14,6 +14,10 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
 			integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -26,6 +30,7 @@
 			rel="stylesheet">
 	
 		<!-- CODES LINK -->
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/photography.css">
 
 
@@ -36,8 +41,42 @@
 <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="70">
 
 	<!-- NAVBAR -->
-
-	<div class="wrapper">
+	<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+		<a class="navbar-brand" href="index"><img src="images/logo.svg" class="d-inline-block align-top">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div id="navbarSupportedContent" class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="nav navbar-nav ml-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link link-work dropdown-toggle" href="index" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Work
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="academic">Projects</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="logos">Logos</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#photography">Photography</a>
+						<div class="dropdown-divider"></div>
+					</div>
+				</li>
+				<div class="dropdown-divider"></div>
+				<li class="nav-item">
+					<a class="nav-link" href="aboutme">About me</a>
+				</li>
+				<div class="dropdown-divider"></div>
+				<li class="nav-item">
+					<a class="nav-link a-contact" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!--
+		<div class="wrapper">
 
 		<nav id="nav" class="navibar">
 			<a class="navi-logo" href="index"><img src="images/logo.svg"></a> <i class="toggle-btn fas fa-bars"></i>
@@ -56,7 +95,7 @@
             <li><a href="#contact"> Contact</a></li>
 	</div>
 		</nav>
-	</div>
+	</div> -->
 
 
 
@@ -236,9 +275,9 @@
 	<!-- FOOTER -->
 	<footer class="page-section" id="contact">
 
-		<div class="container" id="footer">
-			<div class="contain-row">
-				<div class="contain-col-2">
+		<div class="contain" id="footer">
+			<div class="row no-gutters">
+				<div class="col-md-6 col-sm-12">
 
 					<div class="contact-title">
 						<h1>Quick contact</h1>
@@ -268,30 +307,28 @@
 						</form>
 					</div>
 				</div>
-				<!--Contact-->
-				<div class="contain-col-2">
-					<div id="contact">
-						Yassine El Idrissi <br> contact@yassineelidrissi.com
-						<br>
-						<svg version="1.1" class="yel" id="Calque_2" xmlns="http://www.w3.org/2000/svg"
-							xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 93.5 60.9"
-							style="enable-background:new 0 0 93.5 60.9;" xml:space="preserve">
-							<g>
-								<path
-									d="M26.1,26.1C16.5,25.9,8.7,18,8.7,8.3V0H0v8.3c0,14.5,11.7,26.3,26.1,26.5v26.1h8.7V0h-8.7V26.1z" />
-								<polygon points="39.1,60.9 70.1,60.9 70.1,52.2 47.8,52.2 47.8,34.8 67.4,34.8 67.4,26.1 47.8,26.1 47.8,8.7 71.3,8.7 71.3,0 
-							   39.1,0 	" />
-								<polygon points="84.8,0 84.8,52.2 71.4,52.2 71.4,60.9 93.5,60.9 93.5,0 	" />
-							</g>
-						</svg>
-						<br>Designed by Yassine El Idrissi
-						<br><br> Copyright © 2023
-						<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+					<!--Contact-->
+					<div class="col-md-6 col-sm-12">
+						<div id="contact">
+							Yassine El Idrissi <br> contact@yassineelidrissi.com
+							<br>
+							<svg version="1.1" class="yel" id="Calque_2" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 93.5 60.9"
+								style="enable-background:new 0 0 93.5 60.9;" xml:space="preserve">
+								<g>
+									<path
+										d="M26.1,26.1C16.5,25.9,8.7,18,8.7,8.3V0H0v8.3c0,14.5,11.7,26.3,26.1,26.5v26.1h8.7V0h-8.7V26.1z" />
+									<polygon points="39.1,60.9 70.1,60.9 70.1,52.2 47.8,52.2 47.8,34.8 67.4,34.8 67.4,26.1 47.8,26.1 47.8,8.7 71.3,8.7 71.3,0 
+								   39.1,0 	" />
+									<polygon points="84.8,0 84.8,52.2 71.4,52.2 71.4,60.9 93.5,60.9 93.5,0 	" />
+								</g>
+							</svg>
+							<br>Designed by Yassine El Idrissi
+							<br><br> Copyright © 2024
+							<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+						</div>
 					</div>
-				</div>
-
-
-
 			</div>
 		</div>
 

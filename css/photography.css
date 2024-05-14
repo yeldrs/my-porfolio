@@ -4,6 +4,12 @@ body, html {
     font-family: 'Ubuntu', sans-serif;
 }
 
+
+
+/* navbar */
+
+/*
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,9 +19,6 @@ body, html {
     font-size: 100%;
     vertical-align: baseline;
 }
-
-/* navbar */
-
 
 .wrapper {
     z-index: 9999;
@@ -191,32 +194,9 @@ nav.shrink {
         margin: 15px 0px;
     }
     }
+    */
 
-/* Button page top*/
-
-#myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 20px;
-    border: 1px solid rgb(63, 63, 63);
-    outline: none;
-    background-color: rgba(211, 211, 211, 0.8);
-    color: #414141;
-    cursor: pointer;
-    padding: 10px 16px 10px 16px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
-    height: 50px;
-    width: 50px;
-  }
-  
-  #myBtn:hover {
-    background-color: #f3f3f3;
-  }
-
+/* Photography */
 
 h1{
     font-size: 25px;
@@ -274,143 +254,4 @@ width: 39.035%;
         margin: 0 16px;
     }
     
-}
-
-
-/* FOOTER */
-
-footer {
-    background: rgb(49, 49, 49);
-}
-
-.container#footer {
-    padding: 100px 50px;
-}
-
-.contact-title {
-    text-align: center;
-    color: white;
-}
-
-.contact-title h1 {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.contact-title h2 {
-    font-size: 15px;
-}
-
-.contain-row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.contain-col-2{
-max-width:50%;
-}  
-
-form {
-    margin: 10px 20px;
-    padding: 30px;
-    background: transparent;
-    border-radius: 0px;
-}
-
-.form-control {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    border-radius: 0;
-    color: white !important;
-    border-bottom: 1px solid white;
-    width: 100%;
-    padding: .375rem .75rem;
-}
-
-.form-control:focus {
-    background: rgba(255, 255, 255, 0);
-    box-shadow: none;
-    border: 1px solid white;
-}
-
-::placeholder {
-    font-style: italic;
-    color: rgba(255, 255, 255, 0.6) !important;
-    font-weight: 100;
-    font-size: 0.90rem;
-    padding: 0px !important;
-}
-
-:focus::-webkit-input-placeholder {
-    color: grey !important;
-}
-
-#form-name {
-    width: 100%;
-    display: inline-flex;
-}
-
-form input, form textarea{
-    margin-top:10px;
-}
-
-input#space_right {
-    margin-right: 22px;
-}
-
-form .submit {
-    width: 100%;
-    background: transparent;
-    color: #fff;
-    border: 1px solid white;
-}
-
-form .submit:hover {
-    background: #5882FA;
-}
-
-div#contact {
-    margin: 10px 20px;
-    padding: 30px;
-    text-align: center;
-    color: white;
-}
-
-.yel {
-    margin: 10px;
-    height: 60px;
-    fill: white;
-}
-
-button, input, optgroup, select, textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-
-textarea{
-    line-height: 150%;
-}
-
-@media screen and (max-width:765px) {
-
-    .contain-col-2{
-        max-width: 100%;
-        width:100%;
-        } 
-
-    form {
-        margin: 10px 0px;
-        padding: 30px 0;
-    }
-
-    div#contact {
-        font-size: 0.75rem;
-    }
-
-    .yel {
-        height: 45px;
-    }
 }

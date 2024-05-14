@@ -1,0 +1,144 @@
+
+/* WORK */
+
+.contain#top {
+    margin-top: 139px;
+}
+
+.contain {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+
+}
+
+h4.work_category {
+    border-top: 0vw solid #414141;
+    color: #414141;
+    margin: 0;
+    /*padding: 40px 0 20px 14%;*/
+    text-align:center;
+    padding-top:30px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size:2rem;
+    text-transform: uppercase;
+}
+
+.see_more{
+    transition: 0.5s;
+    display : grid;
+    align-items : center;
+    background-color: rgba(255, 255, 255);
+}
+
+.see_more:hover{
+    transition:0.5s;
+    background-color: #292929;
+}
+/*
+.see_more img{
+    opacity:1;
+    background-color: rgba(0, 0, 0, .5);
+}
+*/
+
+#p_more{
+    display: -webkit-flex; /* Safari */  
+    display: flex;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.plus{
+    padding:5px;
+    transition:0.5s;
+max-width: 100px;
+fill:#414141;
+}
+
+.see_more:hover .plus{
+    transition:0.5s;
+    fill:#FAFAFA;
+    max-width: 200px;
+}
+
+
+.work_section{
+    transition: 0.5s;
+    top: 0%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display:grid;
+    align-items: center;
+
+}
+
+.see_more:hover .work_section {
+    opacity: 1;
+    color: #414141;
+    transition: 0.5s;
+}
+
+.circle{
+width:6.25%;
+height:10%;
+   border: 10px solid rgba(207, 207, 207, 0.3);
+    border-radius: 50%;
+    margin:0 auto;
+    box-shadow: inset 0px 0px 7px 7px rgba(255, 255, 255, 0.2);
+    transition: 0.2s;
+}
+
+.see_more:hover .circle{
+    opacity: 1;
+    width:21vw;
+    height:21vw;
+transition: 0.8s;
+    }
+
+
+.img_overflow {
+    overflow: hidden;
+}
+
+.shelby {
+    max-width: 100%;
+}
+
+.img_nike {
+    max-width: 100%
+}
+
+.work_img{
+    align-items: flex-start;
+    display:flex
+}
+
+.img-fluid#testing, .work_img{
+height: 100%;
+   width: auto!important;
+    align-self: flex-start;
+    justify-self: flex-start;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contain#top {
+        margin-top: 50px !important;
+    }
+
+    h4.work_category {
+        font-size: 17px;
+        padding: 7px 0 7px 15px;
+    }
+
+    #big_img {
+        font-size: 1rem;
+    }
+}
