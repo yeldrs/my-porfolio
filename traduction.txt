@@ -1,0 +1,38 @@
+CDC - Caisse des Dépôts et Consignations
+Et si nous changions notre façon de penser et de concevoir des services numériques afin de relever de nouveaux défis sociétaux? L'objectif de ce projet a été de développer un outil méthodologique qui aiderai à développer des plateformes numériques en tenant compte des notions d'éthique, d'éco-conception et d'inclusivité. Dans le cadre de mon master, nous avons travaillé en binôme durant 6 mois afin de développer le projet Archipel. Notre solution été sélectionnée par le partenaire et proposée pour un développement ultérieur. Nous avons donc eu la chance de présenter Archipel lors de la Nantes Digital Week en 2022 ainsi qu'au siège de la C.D.C. à Paris où nous avons participé à un atelier avec leur équipe de designers pour faire évoluer le concept. (Crédits : Louis Richard Marschal, Duaa Ali, Matthieu Gioani)
+
+
+
+Design en Santé Animale - Concept AniWay
+AniWay est un concept de service en santé animale. Grâce aux multiples fonctionnalités de l'application, vous pourrez mieux comprendre et répondre à tous les besoins de votre animal. AniWay aide à superviser vos animaux en collectant et en traitant différentes données physiologiques et comportementales. Les spécialistes en santé animale de votre choix pourront alors identifier à distance les potentiels problèmes et vous apporter des conseils tout en facilitant les prises en charge. AniWay permet aussi aux utilisateurs de se connecter avec d'autres personnes qui comprendront les besoins spécifiques de votre animal (handicaps, âge, maladies...) afin de partager votre expertise ou de trouver une garde de confiance lors de vos déplacements.
+J'ai développé ce concept sur une période de 12 mois et l'ai présenté comme projet de fin d'études avec ma thèse de master, pour laquelle j'ai enquêté sur la relation sociale entre les animaux et les êtres humains afin de montrer l'importance de leur rôle dans notre société et la responsabilité que nous avons envers eux. Des phases de recherche, des interviews, des témoignages et des enquêtes sur le terrain m'ont permis d'identifier la problématique suivante : Comment le design peut-il concilier les propriétaires et les animaux exotiques ou en situation de handicap ? L'enjeu a été de créer un service numérique dédié à la fois aux animaux et à leurs propriétaires, en sachant que chaque individu est prêt à mobiliser un niveau de ressources différent. Je suis convaincu qu'un service numérique comme AniWay peut offrir une solution adaptable aux besoins de chacun, permettant ainsi un meilleur accès aux soins animaliers.
+
+
+
+Biomimétisme - Musée d'Histoire Naturelle
+Nous avons travaillé en équipe de quatre pour développer une expérience interactive pour le Muséum d'Histoire Naturelle de Nantes afin d'aider les visiteurs à visualiser et à comprendre le principe des plantes pionnières. Le projet a été développé sur une période de 4 mois. Mon rôle consistait à participer à l’idéation du concept, à l’expérience utilisateur, au prototypage et à la construction du totem en bois. Pour cela, j'ai utilisé différentes techniques de travail du bois et de gravure au laser. J'ai également géré, avec le reste de l'équipe, l'introduction et l'exposition de notre projet au musée lors d'un événement de deux jours. (Crédits : Yingjun Zhao, Loïc Prevost, Aman Srivastava)
+
+
+
+Design Produit - Concept Ecouteurs Polyvalents
+Polybud est un projet conceptuel imaginé pour une utilisation quotidienne, optimisé pour l'écoute de musique et la communication lors de la pratique d'activités physiques. L'écouteur peut être utilisé seul ou en paire grâce à sa polyvalence et à sa mécanique simple, il est réversible et compatible avec les deux oreilles. Polybud est modulable et donc facilement réparable.
+
+
+
+Design Produit - Concept Nike Linear Flow
+Le concept est basé sur le thème "Flux Linéaire", que j'ai défini comme un flux de lignes se déplaçant dans l'espace sous influence aérodynamique. L'exercice consiste en combiner l'identité de la légendaire Nike Air Max 1 avec le thème Flux Linéaire. Pour atteindre cet objectif, j'ai créé un design personnalisé du modèle de chaussure en imaginant cet ensemble de lignes qui suivent le mouvement de l'air pour l'adapter au mieux à la chaussure.
+
+
+
+Direction Artistique - Concept CTA 18
+Le microphone cardioïde permet un enregistrement vocal de qualité supérieure, et son apparence vintage offre une identité forte en rappelant les fonctions fondamentales d'un microphone : la diffusion de la voix. Il symbolise ici la liberté d'expression. J'ai imaginé ce symbole et l'ai modélisé en 3D à l'aide de Cinema 4D pour qu'il soit facilement identifiable comme un micro cardioïde, puis je lui ai donné un aspect plus moderne en gage d'innovation. Les lignes en arrière-plan représentent la diffusion du son et la combinaison de diverses voix apportant différentes opinions lors d'un événement comme le CTA 18.
+
+
+
+Maison Le Roux - Stage
+Maison Le Roux est une chocolaterie et confiserie de luxe basée originaire de Bretagne et basée à Paris.  À partir de mi-2022, j'ai rejoint l'entreprise pour un stage de 6 mois en tant que graphiste et directeur artistique, et j'ai collaboré avec le département marketing pour aider à développer l'identité de la marque, imaginer et suggérer des concepts créatifs à décliner pour l'impression, le web et la vente au détail. J'ai eu l'opportunité de travailler sur plusieurs projets incluant du packaging, de la photographie, de l'illustration, de la gestion de projet, et plus encore. En octobre 2022, nous avons participé au célèbre Salon du Chocolat ou j'ai été chargé de dessiner le stand de vente au détail pour Maison Le Roux. Travailler au sein d'une petite équipe m'a donné l'occasion de comprendre plusieurs défis auxquels les entreprises de petite taille doivent faire face, notamment être réactif ou répondre à des problématiques avec des ressources limitées. J'ai progressivement gagné en expertise et me suis vu confier plus de responsabilités pour collaborer avec divers acteurs externes tels que des designers ou des fournisseurs. Je continue aujourd'hui à travailler régulièrement avec Maison Le Roux en tant que designer indépendant.
+
+
+
+Swatch - Rorschach
+Rorschach est un personnage fictif de l'univers de Watchmen, un anti-héros symbolisant "l'absolutisme moral : le bien et le mal sans nuances de gris". Son apparence est inspirée des tests psychologiques de Rorschach. J'ai travaillé sur ces formes ambiguës pour concevoir un nouveau design personnalisé sans aucune nuance de gris. Une montre noir et blanc contrastée disponible en deux versions. J'ai réalisé ces mockup à l'aide Adobe Illustrator et Photoshop.
