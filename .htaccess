@@ -1,4 +1,4 @@
-RewriteEngine on
+RewriteEngine On
 Redirect 301 /portfolio.html https://yassineelidrissi.com
 Redirect /linkedin.html https://www.linkedin.com/in/yassineelidrissi/
 
