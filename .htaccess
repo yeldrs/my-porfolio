@@ -1,9 +1,12 @@
+Redirect 301 /portfolio.html http://yassineelidrissi.com
+
+Redirect /linkedin.html https://www.linkedin.com/in/yassineelidrissi/
+
+# End Redirect
+
 Options +MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-Redirect 301 /portfolio.html http://yassineelidrissi.com
-
-Redirect /linkedin.html https://www.linkedin.com/in/yassineelidrissi/
