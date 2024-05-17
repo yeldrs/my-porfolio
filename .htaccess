@@ -1,6 +1,6 @@
-Redirect 301 "/portfolio" "http://yassineelidrissi.com"
-
-Redirect "/linkedin" "https://www.linkedin.com/in/yassineelidrissi/"
+RewriteEngine on
+Redirect 301 /portfolio.html https://yassineelidrissi.com
+Redirect /linkedin.html https://www.linkedin.com/in/yassineelidrissi/
 
 # End Redirect
 
