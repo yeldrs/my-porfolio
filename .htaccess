@@ -1,6 +1,6 @@
-Redirect 301 /portfolio.html http://yassineelidrissi.com
+Redirect 301 "/portfolio" "http://yassineelidrissi.com"
 
-Redirect /linkedin.html https://www.linkedin.com/in/yassineelidrissi/
+Redirect "/linkedin" "https://www.linkedin.com/in/yassineelidrissi/"
 
 # End Redirect
 
