@@ -4,4 +4,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-Redirect 301 https://yassineelidrissi.com/?utm_source=web&utm_medium=cv&utm_campaign=qr https://yassineelidrissi.com
+Redirect 301 /portfolio.html http://yassineelidrissi.com
+
+Redirect /linkedin.html https://www.linkedin.com/in/yassineelidrissi/
